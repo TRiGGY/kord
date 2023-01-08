@@ -25,4 +25,7 @@ public enum class EncryptionMode {
 
     @SerialName("aead_aes256_gcm")
     AeadAes256Gcm,
+
+    @SerialName("aead_xchacha20_poly1305_rtpsize")
+    AeadXchacha20Poly1305Rtpsize
 }
